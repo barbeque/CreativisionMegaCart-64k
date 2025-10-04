@@ -1,0 +1,1 @@
+ - [ ] move pads to make bevel easier (at least 1.15mm)
