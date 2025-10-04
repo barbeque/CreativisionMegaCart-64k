@@ -1,3 +1,14 @@
+# 64K modifications
+I didn't have a 27C801, so I've modified this cartridge to use a 27C512 and switch it between two 32K games.
+
+Revised bill of materials:
+ - 27c512 (E)EPROM
+ - 3-pin 0.1" SPST toggle switch
+ - 0.1µF disc capacitor
+ - 2x 1n4148 diode
+
+Fixed README coming soon. Original README is as follows:
+
 # CreativisionMegaCart
 NOTE: THIS IS NOT COMPATIBLE WITH THE CREATIVISION II WITHOUT MODIFICATION!
 (See: http://www.madrigaldesign.it/forum/viewtopic.php?f=10&t=330&p=3201#p3201 )
