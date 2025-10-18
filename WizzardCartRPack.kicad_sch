@@ -1977,6 +1977,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Always decode BIOS"
+		(exclude_from_sim no)
+		(at 149.225 173.355 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce52c2b7-63f8-4793-a486-af93d5f02e2c")
+	)
 	(junction
 		(at 66.04 130.81)
 		(diameter 0)
@@ -2999,6 +3009,16 @@
 		)
 		(uuid "feb26ecb-9193-46ea-a41b-d09305bf0a3e")
 	)
+	(label "A15"
+		(at 133.35 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "017c2fe6-ce5a-4991-b2e4-cd3ba5f411e1")
+	)
 	(label "D2"
 		(at 157.48 53.34 0)
 		(effects
@@ -3068,6 +3088,16 @@
 			(justify right bottom)
 		)
 		(uuid "36032b69-74fa-416d-b085-dce81d367ee0")
+	)
+	(label "~{ROM2}"
+		(at 132.08 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "380a02d8-11d7-4852-8c05-cbae4ccac5e7")
 	)
 	(label "A8"
 		(at 137.16 68.58 180)
@@ -3139,6 +3169,16 @@
 		)
 		(uuid "77ed7b4b-d2c6-496a-8905-76a47baa034a")
 	)
+	(label "~{OE}"
+		(at 130.175 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b43ccb9-e827-409d-b926-cce5df453a5f")
+	)
 	(label "D5"
 		(at 157.48 60.96 0)
 		(effects
@@ -3208,6 +3248,16 @@
 			(justify left bottom)
 		)
 		(uuid "cfd29b82-f746-49e4-854e-ca02eef8333d")
+	)
+	(label "~{ROM1}"
+		(at 132.08 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f183e1dc-aae5-4c8b-a447-b67e365d7128")
 	)
 	(label "A11"
 		(at 137.16 76.2 180)
@@ -3419,7 +3469,8 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 119.38 120.65 90)
+		(at 119.38 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3427,7 +3478,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f324a35")
 		(property "Reference" "D1"
-			(at 121.3866 119.4816 90)
+			(at 117.3734 119.4816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3487,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 121.3866 121.793 90)
+			(at 117.3734 121.793 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3496,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 123.825 120.65 0)
+			(at 114.935 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
